@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Freighthub Logistics Solutions</title>
+  <style>
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { border-collapse: collapse !important; }
+    body { margin: 0; padding: 0; width: 100%; background-color: #f7f8fa; }
+  </style>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f7f8fa; color: #333333; margin: 0; padding: 40px 0;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); overflow: hidden;">
+          <!-- Header -->
+          <tr>
+            <td align="center" style="background-color: #FE6600; padding: 25px;">
+              <!-- You can use a hosted logo or local file -->
+              <img src="https://www.freight-hub.co/wp-content/uploads/2025/10/Black-400-x-100.png" alt="FH logo" width="30%" style="display:block;">
+              <!-- Example for online version:
+              <img src="https://www.freight-hub.co/assets/freighthub-logo.png" alt="Freighthub" width="160" style="display:block;">
+              -->
+            </td>
+          </tr>
+
+          <!-- English Version -->
+          <tr>
+            <td style="padding: 30px 40px;">
+              <img src="https://www.freight-hub.co/wp-content/uploads/2025/10/FH-Poster.png" alt="Freighthub Banner" width="100%" style="margin-bottom: 20px; border-radius: 5px;">
+              <p style="margin: 0 0 16px;">Dear Sir/Madam,</p>
+              <p style="margin: 0 0 16px;">[Company]</p>
+
+              <p style="margin: 0 0 16px;">I hope this message finds you well.<br>
+              My name is <strong>PUT YOUR NAME HERE</strong> and I represent <strong>Freighthub</strong>, a leading digital platform for B2B logistics services in Indonesia.</p>
+
+              <p style="margin: 0 0 16px;">We understand the growing need for transparent, efficient, and data-driven logistics. At Freighthub, we offer a full-stack Transport Management System (TMS), live shipment tracking, digital proof of delivery (POD), and automated vendor allocation, all designed to optimize your logistics operations from end to end.</p>
+
+              <p style="margin: 0 0 16px;">Our clients such as <strong>Nestlé</strong>, <strong>Kino</strong>, <strong>Perfetti Van Melle</strong> and <strong>Meratus Group</strong> have already experienced significant improvements in logistics visibility, cost efficiency, and delivery performance through our platform.</p>
+
+              <p style="margin: 0 0 24px;">You can learn more about our services here:</p>
+
+              <p style="text-align:center; margin-bottom: 20px;">
+                <a href="https://www.freight-hub.co/" target="_blank"
+                   style="background-color:#FE6600; color:#ffffff; padding:12px 28px; border-radius:5px; text-decoration:none; font-weight:bold;">
+                  Visit Our Website
+                </a>
+              </p>
+
+              <p style="margin: 0 0 24px;">If you’d like to discuss your logistics needs directly, please schedule a short online meeting with me via the link below:</p>
+
+              <p style="text-align:center; margin-bottom: 30px;">
+                <a href="PUT YOUR CALENDLY LINK FOR ARRANGING THE MEETING SCHEDULE HERE" target="_blank"
+                   style="background-color:#FE6600; color:#ffffff; padding:12px 28px; border-radius:5px; text-decoration:none; font-weight:bold;">
+                  Book a Meeting Us
+                </a>
+              </p>
+
+              <p style="margin: 0 0 16px;">I have also attached our latest company profile for your reference. We would be glad to arrange a short meeting to explore how Freighthub can support your logistics transformation initiatives.</p>
+
+              <p style="margin: 0 0 16px;">Looking forward to your response.</p>
+
+              <p style="margin: 0;">Warm regards,<br>
+              <strong>PUT YOUR NAME HERE</strong><br>
+              Customer Success<br>
+              Freighthub<br>
+              📞 ‪PUT YOUR PHONE NUMBER HERE | ✉ <a href="mailto:PUT YOUR EMAIL ADDRESS HERE" style="color:#FE6600;">PUT YOUR EMAIL ADDRESS HERE</a><br>
+              🌐 <a href="https://www.freight-hub.co/" style="color:#FE6600;">https://www.freight-hub.co/</a>
+              </p>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td style="border-top: 1px solid #e0e0e0;"></td>
+          </tr>
+
+          <!-- Bahasa Indonesia Version -->
+          <tr>
+            <td style="padding: 30px 40px;">
+              <p style="margin: 0 0 16px;">Yth. Bapak/Ibu,</p>
+              <p style="margin: 0 0 16px;">[Company]</p>
+
+              <p style="margin: 0 0 16px;">Perkenalkan, saya <strong>PUT YOUR NAME HERE</strong> dari <strong>Freighthub</strong>, platform digital terdepan untuk layanan logistik B2B di Indonesia.</p>
+              <p style="margin: 0 0 16px;">Kami memahami kebutuhan perusahaan akan sistem logistik yang efisien, transparan, dan berbasis data. Freighthub hadir dengan teknologi TMS (Transport Management System), pelacakan pengiriman secara langsung, POD digital, serta alokasi vendor otomatis, semua terintegrasi dalam satu sistem untuk mengoptimalkan operasional logistik Anda secara menyeluruh.</p>
+              <p style="margin: 0 0 16px;">Beberapa klien kami seperti <strong>Nestlé</strong>, <strong>Kino</strong>, <strong>Perfetti Van Melle</strong> dan <strong>Meratus Group</strong> telah merasakan manfaat nyata dalam efisiensi biaya, visibilitas pengiriman, serta peningkatan performa logistik setelah menggunakan platform kami.</p>
+
+              <p style="margin: 0 0 24px;">Bapak/Ibu dapat mengunjungi website kami untuk mengetahui lebih lanjut:</p>
+
+              <p style="text-align:center; margin-bottom: 20px;">
+                <a href="https://www.freight-hub.co/" target="_blank"
+                   style="background-color:#FE6600; color:#ffffff; padding:12px 28px; border-radius:5px; text-decoration:none; font-weight:bold;">
+                  Kunjungi Website Kami
+                </a>
+              </p>
+
+              <p style="margin: 0 0 24px;">Apabila Bapak/Ibu ingin mendiskusikan kebutuhan logistik secara langsung, silakan jadwalkan pertemuan singkat dengan saya melalui tautan berikut:</p>
+
+              <p style="text-align:center; margin-bottom: 30px;">
+                <a href="PUT YOUR CALENDLY LINK HERE TO ARRANGE THE MEETING SCHEDULE" target="_blank"
+                   style="background-color:#FE6600; color:#ffffff; padding:12px 28px; border-radius:5px; text-decoration:none; font-weight:bold;">
+                  Jadwalkan Meeting dengan Kami
+                </a>
+              </p>
+
+              <p style="margin: 0 0 16px;">Kami juga melampirkan profil perusahaan terbaru sebagai referensi. Kami sangat berharap dapat mengatur pertemuan singkat untuk mendiskusikan bagaimana Freighthub dapat mendukung transformasi logistik di perusahaan Bapak/Ibu.</p>
+
+              <p style="margin: 0 0 16px;">Kami menantikan kabar baik dari Bapak/Ibu.</p>
+
+              <p style="margin: 0;">Hormat kami,<br>
+              <strong>PUT YOUR NAME HERE</strong><br>
+              Customer Success<br>
+              Freighthub<br>
+              📞 ‪PUT YOUR PHONE NUMBER HERE | ✉ <a href="PUT YOUR EMAIL ADDRESS HERE" style="color:#FE6600;">PUT YOUR EMAIL ADDRESS HERE</a><br>
+              🌐 <a href="https://www.freight-hub.co/" style="color:#FE6600;">https://www.freight-hub.co/</a>
+              </p>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td align="center" style="background-color:#fff3ec; font-size:12px; color:#777; padding: 15px 20px;">
+              © 2025 Freighthub. All rights reserved.<br>
+              Jl. Jenderal Sudirman No.32, Karet Tengsin, Jakarta Pusat, Indonesia
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
