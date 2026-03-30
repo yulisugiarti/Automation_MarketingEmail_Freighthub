@@ -1,0 +1,57 @@
+import datetime as dt
+import pandas as pd
+import smtplib
+import ssl
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+# Get current date
+now = dt.datetime.now()
+day_now = now.day
+month_now = now.month
+
+# --- FIX 1: Added encoding='ISO-8859-1' to handle the UnicodeDecodeError ---
+try:
+    data = pd.read_csv("Daftar Nama Leads.csv", encoding='ISO-8859-1')
+except UnicodeDecodeError:
+    data = pd.read_csv("Daftar Nama Leads.csv", encoding='cp1252')
+
+# Filter recipients based on today's date (Tanggal & Bulan in CSV)
+# Simplified: Filter the dataframe first, then iterate
+today_leads = data[(data['Tanggal'] == day_now) & (data['Bulan'] == month_now)]
+
+# Read email HTML template
+with open("Offering_letter.html", encoding="utf-8") as content:
+    fix_email = content.read()
+
+sender_email = "xxxxxx@xxxxx.co" #PUT YOUR BUSINESS EMAIL HERE
+password = "xxxx xxxx xxxx"  # PUT YOUR APP KEY HERE, Ensure this is an App Password if using 2FA
+
+# --- FIX 2: Move SMTP connection OUTSIDE the loop for efficiency ---
+context = ssl.create_default_context()
+try:
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
+        server.login(sender_email, password)
+
+        for index, row in today_leads.iterrows():
+            recipient_name = row['Nama']
+            receiver_email = row['email']
+
+            subject = "Optimize Your Logistics Operations with Freighthub's Digital Solutions"
+            body = fix_email.replace("[Company]", recipient_name)
+
+            # Create email message
+            message = MIMEMultipart("alternative")
+            message["From"] = sender_email
+            message["To"] = receiver_email
+            message["Subject"] = subject
+            message.attach(MIMEText(body, "html"))
+
+            # Send email
+            server.sendmail(sender_email, receiver_email, message.as_string())
+            print(f"Email sent successfully to {recipient_name} ({receiver_email})")
+
+except Exception as e:
+    print(f"An error occurred: {e}")
+
+print("Task completed.")
